@@ -7,9 +7,8 @@ const Home = () => {
         <>
             <Header />
             <Code />
-            {/* <Result /> */}
+            <Result />
         </>
     )
 }
-
 export default Home;

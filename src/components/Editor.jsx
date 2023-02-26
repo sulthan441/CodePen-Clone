@@ -1,17 +1,13 @@
 import { useState } from 'react';
-
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/xml/xml';
 import 'codemirror/mode/javascript/javascript';
 import 'codemirror/mode/css/css';
-
 import { Controlled as ControlledEditor } from 'react-codemirror2';
-
 import { Box, Typography, Button } from '@mui/material';
 import { CloseFullscreen } from '@mui/icons-material';
 import { styled } from '@mui/material/styles';
-
 import '../App.css';
 
 const Container = styled(Box)`

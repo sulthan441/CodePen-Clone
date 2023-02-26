@@ -1,8 +1,5 @@
 import { useContext } from 'react';
-
-//components
 import Editor from './Editor';
-
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles'
 import { Code as CodeIcon } from '@mui/icons-material';
@@ -14,7 +11,6 @@ const Container = styled(Box)`
     height: 50vh;
     display: flex;
 `
-
 const Code = () => {
 
   const { html, css, js, setHtml, setCss, setJs } = useContext(DataContext);
